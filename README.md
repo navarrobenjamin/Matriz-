@@ -21,22 +21,17 @@ public static void Main(string[] args)
      {
          int r = matrix.GetLength(0);
          int c = matrix.GetLength(1);
-         
          int max = 0;
          for (int i = 0; i < r-1; i++)
         {
              for (int j = 0; j < c-1; j++)
              {
                   int maxSubmatrix =matrix[i,j]+  matrix[i,j+1] + matrix[i+1,j]+matrix[i+1,j+1];
-                  
                   Console.WriteLine();
-                 
                   Console.Write(matrix[i,j]+" "+matrix[i,j+1]);
                   Console.WriteLine();
-                  
                   Console.Write(matrix[i+1,j]+" "+matrix[i+1,j+1]);
                   Console.WriteLine();
-                  
                 if (maxSubmatrix > max)
                 {
                    max = maxSubmatrix;
