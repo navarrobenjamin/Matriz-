@@ -10,24 +10,6 @@ Trabajo de la universidad
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public static void Main(string[] args)
     {
         int[,] matrix = { { 2, 5, 7 },
@@ -41,9 +23,7 @@ public static void Main(string[] args)
          int c = matrix.GetLength(1);
          
          int max = 0;
-         
-         
-        for (int i = 0; i < r-1; i++)
+         for (int i = 0; i < r-1; i++)
         {
              for (int j = 0; j < c-1; j++)
              {
