@@ -3,6 +3,31 @@ Trabajo de la universidad
 <img src="/docs/2x2.jpg" alt="My cool logo"/>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 public static void Main(string[] args)
     {
         int[,] matrix = { { 2, 5, 7 },
