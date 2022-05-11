@@ -1,8 +1,9 @@
 # Matriz-
 Trabajo de la universidad
 <img src="/docs/2x2.jpg" alt="My cool logo"/>
-
-public static void Main(string[] args)
+#
+# Recorrer sub matrices de 2x2 de una matriz 3x3
+    public static void Main(string[] args)  
     {
         int[,] matrix = { { 2, 5, 7 },
                           { 3, 4, 5 },
